@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaishreepal.thenetwork.LoginActivity"
+    android:background="@drawable/i5">
+
+    <include layout="@layout/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Email id"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:background="@drawable/background2"
+        android:padding="10dp"
+        android:id="@+id/email"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/background2"
+        android:padding="10dp"
+        android:hint="Password"
+        android:id="@+id/password"/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_width="150dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:background="@drawable/button_back"
+        android:text="Sign up"
+        android:id="@+id/sign_up"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="26sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already registered ? Login here."
+        android:layout_gravity="center"
+        android:textColor="#001"
+        android:id="@+id/login"/>
+<TextView
+    android:layout_marginTop="21dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="LOGIN BY OTP"
+    android:layout_gravity="center"
+    android:id="@+id/otp"
+    android:textStyle="italic"
+    android:textSize="30sp"
+    android:textColor="#000"
+    />
+</LinearLayout>

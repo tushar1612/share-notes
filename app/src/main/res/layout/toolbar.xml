@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:background="@drawable/toolbar_gradient"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv"
+            android:visibility="gone"
+            android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHARE NOTES"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:id="@+id/tv_tool"/>
+
+
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>
